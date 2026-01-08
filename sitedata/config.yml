@@ -5,21 +5,21 @@ citation_date: June 2026
 proceedings_title: Proceedings of the First MiniCon Conference
 analytics: UA-
 logo:
-  image: static/images/MiniConf.png
+  image: static/images/wdfm-eai.png
   width: 180px
   height: auto
 # uncomment the following line to show the site title next to the logo image
 # site_title: MiniConf
 page_title:
-  prefix: 'MiniConf 2020'
+  prefix: 'WDFM-EAI @ CVPR 2026'
   separator: ': '
-background_image: static/images/main.jpg
-organization: MiniConf Organization Committee
+background_image: static/images/denver2.jpeg
+organization: WDFM Organizing Committee
 
 # Remove or change to your chat server.
-chat_server: miniconf.sloppy.zone
-default_presentation_id: 38922815
-default_poster_pdf: /static/images/GLTR_poster.pdf
+# chat_server: miniconf.sloppy.zone
+# default_presentation_id: 38922815
+# default_poster_pdf: /static/images/GLTR_poster.pdf
 
 
 # Configuration for auth

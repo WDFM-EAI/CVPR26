@@ -1,4 +1,24 @@
-## MiniConf
+## WDFM-EAI @ CVPR 2026
+#### Denver, June 2026
+
+The 1st Workshop on Deployment of Foundation Models for Embodied AI (WDFM-EAI) aims to advance the efficient, scalable, and safe deployment of large foundation models in embodied intelligence systems — spanning autonomous driving, robotics, and general-purpose embodied agents.
+
+Building on the success of our previous Workshops on Distillation of Foundation Models for Autonomous Driving at CVPR & ICCV 2025, which focused on deploying foundation models for self-driving systems, this new edition broadens the scope to holistically address embodied AI from both wheeled (autonomous driving) and legged (robotic) perspectives. The workshop explores synergies between these domains, emphasizing how shared challenges in perception, reasoning, and latency can be jointly addressed through the deployment of multimodal foundation models such as Vision-Language-Action Models and World Models.
+
+The workshop will cover a wide range of topics, including but not limited to:
+
+- Multimodal Perception for Embodied AI
+- Real-Time Decision Making with Foundation Models
+- Vision-Language-Action Models in Embodied AI Systems
+- World Models for Planning and Control
+- Model Compression and Distillation for Autonomous Systems
+- Robustness and Safety in Multimodal Autonomous Systems
+- Generative Models for Simulation and Training
+- Cross-Domain Applications of Foundation Models in Embodied Platforms
+
+<!-- The 1st WDFM-EAI will bring together leading experts from industry and academia to explore deployment practices for scalable adoption of foundation models across all embodied AI applications. -->
+
+<!-- ## MiniConf
 
 <a href="https://mini-conf.github.io/index.html">MiniConf</a> is a virtual conference in a box. It manages the papers, schedules, and speakers for an academic conference run virtually. It can be easily integrated with interactive tools such as video, chat, and QA.
 
@@ -99,4 +119,4 @@ Feel free to cite MiniConf:
 }
 ```
 
-
+ -->
