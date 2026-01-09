@@ -4,37 +4,43 @@ committee:
     aff: Uber
     im: static/images/organizer/by.png
     tw: 
+    url: https://byaman14.github.io/
 
   - role: Organizer
     name: Selim Engin
     aff: Sony
     im: https://ksengin.github.io/images/selim.jpeg
     tw: 
+    url: https://ksengin.github.io
 
   - role: Organizer
     name: Yunsheng Ma
     aff: Waymo
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=notEEFMAAAAJ&citpid=9
     tw: 
+    url: https://scholar.google.com/citations?user=notEEFMAAAAJ
 
   - role: Organizer
     name: Yingxue Zhou
     aff: Walmart Labs
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=gu7apsEAAAAJ&citpid=4
     tw: 
+    url: https://scholar.google.com/citations?user=gu7apsEAAAAJ
 
   - role: Organizer
     name: Yuliang Guo
     aff: Maven Robotics
     im: https://yuliangguo.github.io/images/YuliangGuo2021.jpg
-    tw: 33yuliangguo
+    tw:
+    url: https://yuliangguo.github.io
 
 
   - role: Organizer
     name: Hongyang Li
     aff: University of Hong Kong
     im: https://datascience.hku.hk/wp-content/uploads/2025/08/IMG_1143_Square-2048x2048.jpg
-    tw: francislee2020
+    tw:
+    url: https://datascience.hku.hk/people/hongyang-li
 
 
   - role: Organizer
@@ -42,4 +48,5 @@ committee:
     aff: Bosch
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=2A79H_UAAAAJ&citpid=3
     tw:
+    url: https://scholar.google.com/citations?user=2A79H_UAAAAJ
   
