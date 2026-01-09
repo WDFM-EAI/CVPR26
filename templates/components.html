@@ -55,6 +55,7 @@ workshopgroup
             <img src="{{speaker.image}}" width="100%" class="img-thumbnail" />
           </div>
           <div class="col-md-10 col-sm-6">
+            {# Commented out for now - can be restored before workshop
             <div class="m-3 text-muted">
               <h3>
                 <a href="speaker_{{speaker.UID}}.html" class="main-title">
@@ -62,14 +63,17 @@ workshopgroup
                 </a>
               </h3>
             </div>
+            #}
             <div class="m-3 text-muted">
               <span class="card-title h3">
                 {{speaker.speaker}}  /  {{speaker.institution}}
               </span>
             </div>
+            {# Commented out for now - can be restored before workshop
             <div class="m-3">
               {{speaker.abstract|safe}}
             </div>
+            #}
           </div>
         </div>
       </div>

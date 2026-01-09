@@ -34,7 +34,6 @@ committee:
     tw:
     url: https://yuliangguo.github.io
 
-
   - role: Organizer
     name: Hongyang Li
     aff: University of Hong Kong
@@ -49,4 +48,10 @@ committee:
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=2A79H_UAAAAJ&citpid=3
     tw:
     url: https://scholar.google.com/citations?user=2A79H_UAAAAJ
-  
+
+  - role: Organizer
+    name: Rami Al-Rfou
+    aff: OpenAI
+    im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=D89tn7sAAAAJ&citpid=8
+    tw:
+    url: https://www.alrfou.com/

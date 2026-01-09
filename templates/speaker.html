@@ -5,19 +5,27 @@
 <!-- Title -->
 <div class="pp-card m-3" style="">
   <div class="card-header">
+    {# Commented out for now - can be restored before workshop
     <h2 class="card-title main-title text-center" style="">
       {{speaker.title}}
     </h2>
+    #}
+    <h2 class="card-title main-title text-center" style="">
+      {{speaker.speaker}}
+    </h2>
     <h3 class="card-subtitle mb-2 text-muted text-center">
-      {{speaker.speaker}} / {{speaker.institution}}
+      {{speaker.institution}}
     </h3>
+    {# Commented out for now - can be restored before workshop
     <div class="text-center p-3">
       <a class="card-link" data-toggle="collapse" role="button" href="#details">
         Abstract & Bio
       </a>
     </div>
+    #}
   </div>
 </div>
+{# Commented out for now - can be restored before workshop
 <div id="details" class="pp-card m-3 collapse">
   <div class="card-body">
     <div class="card-text">
@@ -32,6 +40,7 @@
     <p></p>
   </div>
 </div>
+#}
 
 <!-- Presentation Embed -->
 
