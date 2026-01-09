@@ -1,0 +1,108 @@
+{% set active_page = "Call for Papers" %}
+{% set page_title = "Call for Papers" %}
+{% extends "base.html" %}
+
+{% block content %}
+<div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+  <div id="call-for-papers">
+    {{ components.section("Call for Papers") }}
+    
+    <div class="row p-4">
+      <div class="col-12 bd-content">
+        <p class="lead">
+          We invite submissions to the 1st Workshop on Deployment of Foundation Models for Embodied AI (WDFM-EAI) at CVPR 2026. 
+        </p>
+      </div>
+    </div>
+
+    {{ components.subsection("Important Dates") }}
+    <div class="row p-3">
+      <div class="col-12 bd-content">
+        <ul>
+          <li><strong>Paper Submission Deadline:</strong> <em>TBD (Tentative: March 2026)</em></li>
+          <li><strong>Notification of Acceptance:</strong> <em>TBD (Tentative: April 2026)</em></li>
+          <li><strong>Camera-Ready Deadline:</strong> <em>TBD (Tentative: May 2026)</em></li>
+          <li><strong>Workshop Date:</strong> <em>June 2026 (co-located with CVPR 2026)</em></li>
+        </ul>
+        <p class="text-muted"><em>All dates are tentative and subject to change. Please check back for updates.</em></p>
+      </div>
+    </div>
+
+    {{ components.subsection("Topics of Interest") }}
+    <div class="row p-3">
+      <div class="col-12 bd-content">
+        <p>We welcome submissions on topics including, but not limited to:</p>
+        <ul>
+          <li>Multimodal Perception for Embodied AI</li>
+          <li>Real-Time Decision Making with Foundation Models</li>
+          <li>Vision-Language-Action Models in Embodied AI Systems</li>
+          <li>World Models for Planning and Control</li>
+          <li>Model Compression and Distillation for Autonomous Systems</li>
+          <li>Robustness and Safety in Multimodal Autonomous Systems</li>
+          <li>Generative Models for Simulation and Training</li>
+          <li>Cross-Domain Applications of Foundation Models in Embodied Platforms</li>
+        </ul>
+      </div>
+    </div>
+
+    {{ components.subsection("Submission Guidelines") }}
+    <div class="row p-3">
+      <div class="col-12 bd-content">
+        <p><strong>Paper Format:</strong></p>
+        <ul>
+          <li>Papers should follow the CVPR 2026 format guidelines</li>
+          <li>Maximum length: <em>8 pages excluding references</em></li>
+        </ul>
+        
+        <p><strong>Submission Process:</strong></p>
+        <ul>
+          <li>Submissions will be handled through <em>OpenReview</em></li>
+          <li>All submissions must be anonymized for double-blind review</li>
+          <li>Accepted papers will be published in the workshop proceedings</li>
+        </ul>
+        
+        <p class="text-muted"><em>Detailed submission instructions will be provided closer to the submission deadline.</em></p>
+      </div>
+    </div>
+
+    {{ components.subsection("Review Process") }}
+    <div class="row p-3">
+      <div class="col-12 bd-content">
+        <ul>
+          <li>All submissions will undergo a double-blind peer review process</li>
+          <li>Each paper will be reviewed by at least <em>2-3</em> reviewers</li>
+          <li>Decisions will be based on reviewer recommendations and program committee discussion</li>
+        </ul>
+      </div>
+    </div>
+
+    {{ components.subsection("Awards") }}
+    <div class="row p-3">
+      <div class="col-12 bd-content">
+        <p>
+          <em>We are planning to recognize outstanding contributions. Details will be announced closer to the workshop date.</em>
+        </p>
+      </div>
+    </div>
+
+    <!-- {{ components.subsection("Contact") }}
+    <div class="row p-3">
+      <div class="col-12 bd-content">
+        <p>
+          For questions about submissions, please contact the organizing committee at: 
+          <em>TBD (contact email to be announced)</em>
+        </p>
+      </div>
+    </div> -->
+
+    <!-- <div class="row p-4">
+      <div class="col-12 bd-content">
+        <div class="alert alert-info" role="alert">
+          <strong>Note:</strong> This is a tentative call for papers. All dates, guidelines, and details are subject to change. 
+          Please check back regularly for updates as we finalize the workshop details.
+        </div>
+      </div>
+    </div>
+  </div> -->
+</div>
+{% endblock %}

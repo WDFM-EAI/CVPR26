@@ -83,6 +83,12 @@ def about():
     return render_template("help.html", **data)
 
 
+@app.route("/call_for_papers.html")
+def call_for_papers():
+    data = _data()
+    return render_template("call_for_papers.html", **data)
+
+
 @app.route("/papers.html")
 def papers():
     data = _data()
