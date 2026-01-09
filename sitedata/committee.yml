@@ -4,3 +4,42 @@ committee:
     aff: Uber
     im: static/images/organizer/by.png
     tw: 
+
+  - role: Organizer
+    name: Selim Engin
+    aff: Sony
+    im: https://ksengin.github.io/images/selim.jpeg
+    tw: 
+
+  - role: Organizer
+    name: Yunsheng Ma
+    aff: Waymo
+    im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=notEEFMAAAAJ&citpid=9
+    tw: 
+
+  - role: Organizer
+    name: Yingxue Zhou
+    aff: Walmart Labs
+    im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=gu7apsEAAAAJ&citpid=4
+    tw: 
+
+  - role: Organizer
+    name: Yuliang Guo
+    aff: Maven Robotics
+    im: https://yuliangguo.github.io/images/YuliangGuo2021.jpg
+    tw: 33yuliangguo
+
+
+  - role: Organizer
+    name: Hongyang Li
+    aff: University of Hong Kong
+    im: https://datascience.hku.hk/wp-content/uploads/2025/08/IMG_1143_Square-2048x2048.jpg
+    tw: francislee2020
+
+
+  - role: Organizer
+    name: Xin Ye
+    aff: Bosch
+    im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=2A79H_UAAAAJ&citpid=3
+    tw:
+  

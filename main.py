@@ -71,6 +71,7 @@ def favicon():
 def home():
     data = _data()
     data["readme"] = open("README.md").read()
+    data["speakers"] = site_data["speakers"]
     data["committee"] = site_data["committee"]["committee"]
     return render_template("index.html", **data)
 

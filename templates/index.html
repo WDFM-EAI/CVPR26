@@ -31,6 +31,12 @@
 
 {{ readme | markdown }}
 
+<!-- Keynote Speakers -->
+{{ components.section("Keynote Speakers") }}
+<div class="speakers">
+  {{ components.speakergroup(speakers) }}
+</div>
+
 <!-- Organizers -->
 {{ components.section("Organizers") }}
 {{ components.organizergroup(committee) }}

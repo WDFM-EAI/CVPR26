@@ -1,0 +1,18 @@
+speakers:
+  - role: Keynote Speaker
+    name: Ashok Elluswamy
+    aff: Tesla
+    im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=yVhkUZwAAAAJ&citpid=2
+    tw: 
+
+  - role: Keynote Speaker
+    name: Dragomir Anguelov
+    aff: Waymo
+    im: https://cap.csail.mit.edu/sites/default/files/styles/spotlight_photo/public/people-images/Drago_Anguelov_Waymo.JPG?h=84efa7b9&itok=F6KATtLw
+    tw: 
+
+  - role: Keynote Speaker
+    name: Alex Kendall
+    aff: Wayve
+    im: https://alexgkendall.com/assets/images/alex.jpg
+    tw: 
