@@ -34,27 +34,6 @@ committee:
     tw:
     url: https://yuliangguo.github.io
 
-  - role: Organizer
-    name: Hongyang Li
-    aff: University of Hong Kong
-    im: https://datascience.hku.hk/wp-content/uploads/2025/08/IMG_1143_Square-2048x2048.jpg
-    tw:
-    url: https://datascience.hku.hk/people/hongyang-li
-
-
-  - role: Organizer
-    name: Xin Ye
-    aff: Bosch
-    im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=2A79H_UAAAAJ&citpid=3
-    tw:
-    url: https://scholar.google.com/citations?user=2A79H_UAAAAJ
-
-  - role: Organizer
-    name: Rami Al-Rfou
-    aff: OpenAI
-    im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=D89tn7sAAAAJ&citpid=8
-    tw:
-    url: https://www.alrfou.com/
 
   - role: Organizer
     name: Wenqian Ye
@@ -62,9 +41,31 @@ committee:
     im: https://wenqian-ye.github.io/assets/profile-pics/profile_pic.jpeg
     tw:
     url: https://wenqian-ye.github.io/
+    
   - role: Organizer
     name: Ruofeng Liu
     aff: Michigan State University
     im: https://liux4189.github.io/images/bio-photo.jpg
     tw:
     url: https://liux4189.github.io/
+    
+  - role: Organizer
+    name: Hongyang Li
+    aff: University of Hong Kong
+    im: https://datascience.hku.hk/wp-content/uploads/2025/08/IMG_1143_Square-2048x2048.jpg
+    tw:
+    url: https://datascience.hku.hk/people/hongyang-li
+
+  - role: Organizer
+    name: Rami Al-Rfou
+    aff: OpenAI
+    im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=D89tn7sAAAAJ&citpid=8
+    tw:
+    url: https://www.alrfou.com/
+   
+    - role: Organizer
+    name: Xin Ye
+    aff: Bosch
+    im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=2A79H_UAAAAJ&citpid=3
+    tw:
+    url: https://scholar.google.com/citations?user=2A79H_UAAAAJ
