@@ -29,3 +29,11 @@ speakers:
     aff: Nvidia
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=P9FclNEAAAAJ&citpid=1
     tw: 
+
+  - role: Keynote Speaker
+    name: Peter Stone 
+    aff: Sony AI
+    im: https://www.cs.utexas.edu/~pstone/images/Peter_Headshot_2019.png
+    tw: 
+
+
