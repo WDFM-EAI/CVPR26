@@ -42,6 +42,7 @@ body {
 #main-nav {
   padding-top: 10px;
   padding-bottom: 10px;
+  background-color: rgb(254, 254, 254) !important;
 }
 
 .header {
