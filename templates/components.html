@@ -66,7 +66,7 @@ workshopgroup
             #}
             <div class="m-3 text-muted">
               <span class="card-title h3">
-                {{speaker.speaker}}  /  {{speaker.institution}}
+                {% if speaker.url %}<a href="{{speaker.url}}" target="_blank">{{speaker.speaker}}</a>{% else %}{{speaker.speaker}}{% endif %}  /  {{speaker.institution}}
               </span>
             </div>
             {# Commented out for now - can be restored before workshop
