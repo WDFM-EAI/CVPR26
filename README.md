@@ -1,5 +1,5 @@
 ## WDFM-EAI @ CVPR 2026
-#### Denver, June 2026
+#### Denver, CO | June 3, 2026
 
 The 1st Workshop on Deployment of Foundation Models for Embodied AI (WDFM-EAI) aims to advance the efficient, scalable, and safe deployment of large foundation models in embodied intelligence systems — spanning autonomous driving, robotics, and general-purpose embodied agents.
 
