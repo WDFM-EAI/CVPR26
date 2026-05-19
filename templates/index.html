@@ -38,6 +38,135 @@
   {{ components.speakergroup(speakers) }}
 </div>
 
+<!-- Program -->
+{{ components.section("Program Schedule") }}
+<div class="row p-3">
+  <div class="col-12">
+    <div class="program-note text-center mb-3">
+      <div class="program-date">June 3rd, Wednesday, 2026 <span class="program-tz">(MDT, local time)</span></div>
+      <div class="program-venue text-muted">Colorado Convention Center, Room 2E-2H</div>
+    </div>
+    <div class="table-responsive program-table-wrap">
+      <table class="table program-table mb-0">
+        <thead>
+          <tr>
+            <th scope="col" class="program-time-col">Start</th>
+            <th scope="col" class="program-time-col">End</th>
+            <th scope="col">Session</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="program-row-other">
+            <td class="program-time">08:50 am</td>
+            <td class="program-time">09:00 am</td>
+            <td class="program-desc">Opening Remarks</td>
+          </tr>
+          <tr class="program-row-speaker">
+            <td class="program-time">09:00 am</td>
+            <td class="program-time">09:40 am</td>
+            <td class="program-desc">
+              <div class="program-speaker">Peter Stone <span class="program-affiliation">(Sony AI)</span></div>
+              <div class="program-title">Foundation Models for Robot Navigation, Manipulation, and Planning</div>
+            </td>
+          </tr>
+          <tr class="program-row-speaker">
+            <td class="program-time">09:40 am</td>
+            <td class="program-time">10:20 am</td>
+            <td class="program-desc">
+              <div class="program-speaker">Sergey Levine <span class="program-affiliation">(Physical Intelligence)</span></div>
+              <div class="program-title">Robotic Foundation Models</div>
+            </td>
+          </tr>
+          <tr class="program-row-break">
+            <td class="program-time">10:20 am</td>
+            <td class="program-time">10:35 am</td>
+            <td class="program-desc">Coffee Break</td>
+          </tr>
+          <tr class="program-row-speaker">
+            <td class="program-time">10:35 am</td>
+            <td class="program-time">11:15 am</td>
+            <td class="program-desc">
+              <div class="program-speaker">Raquel Urtasun <span class="program-affiliation">(Waabi)</span></div>
+              <div class="program-title">Title: To be announced</div>
+            </td>
+          </tr>
+          <tr class="program-row-speaker">
+            <td class="program-time">11:15 am</td>
+            <td class="program-time">11:55 am</td>
+            <td class="program-desc">
+              <div class="program-speaker">Alex Kendall <span class="program-affiliation">(Wayve)</span></div>
+              <div class="program-title">Title: To be announced</div>
+            </td>
+          </tr>
+          <tr class="program-row-break">
+            <td class="program-time">11:55 am</td>
+            <td class="program-time">01:15 pm</td>
+            <td class="program-desc">Lunch &amp; Poster Session</td>
+          </tr>
+          <tr class="program-row-speaker">
+            <td class="program-time">01:15 pm</td>
+            <td class="program-time">01:55 pm</td>
+            <td class="program-desc">
+              <div class="program-speaker">Dragomir Anguelov <span class="program-affiliation">(Waymo)</span></div>
+              <div class="program-title">Title: To be announced</div>
+            </td>
+          </tr>
+          <tr class="program-row-speaker">
+            <td class="program-time">01:55 pm</td>
+            <td class="program-time">02:35 pm</td>
+            <td class="program-desc">
+              <div class="program-speaker">Danny Guo <span class="program-affiliation">(Uber)</span></div>
+              <div class="program-title">Title: To be announced</div>
+            </td>
+          </tr>
+          <tr class="program-row-speaker">
+            <td class="program-time">02:35 pm</td>
+            <td class="program-time">03:15 pm</td>
+            <td class="program-desc">
+              <div class="program-speaker">Ashok Elluswamy <span class="program-affiliation">(Tesla)</span></div>
+              <div class="program-title">Title: To be announced</div>
+            </td>
+          </tr>
+          <tr class="program-row-break">
+            <td class="program-time">03:15 pm</td>
+            <td class="program-time">03:30 pm</td>
+            <td class="program-desc">Coffee Break</td>
+          </tr>
+          <tr class="program-row-speaker">
+            <td class="program-time">03:30 pm</td>
+            <td class="program-time">04:10 pm</td>
+            <td class="program-desc">
+              <div class="program-speaker">Xianming Liu</div>
+              <div class="program-title">Title: To be announced</div>
+            </td>
+          </tr>
+          <tr class="program-row-speaker">
+            <td class="program-time">04:10 pm</td>
+            <td class="program-time">04:50 pm</td>
+            <td class="program-desc">
+              <div class="program-speaker">Ben Snyder <span class="program-affiliation">(GM)</span></div>
+              <div class="program-title">Title: To be announced</div>
+            </td>
+          </tr>
+          <tr class="program-row-speaker">
+            <td class="program-time">04:50 pm</td>
+            <td class="program-time">05:30 pm</td>
+            <td class="program-desc">
+              <div class="program-speaker">Jan Kautz <span class="program-affiliation">(NVIDIA)</span></div>
+              <div class="program-title">Bringing Humanoid Robots to Life</div>
+            </td>
+          </tr>
+          <tr class="program-row-other">
+            <td class="program-time">05:30 pm</td>
+            <td class="program-time">05:40 pm</td>
+            <td class="program-desc">Closing Remarks</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
 <!-- Organizers -->
 {{ components.section("Organizers") }}
 {{ components.organizergroup(committee) }}

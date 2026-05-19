@@ -45,42 +45,23 @@ workshopgroup
 {%- endmacro %}
 
 {% macro speakergroup(speakers) -%}
-{% for speaker in speakers %}
-<div class="row p-4">
-  <div class="col-md-12">
-    <div class="card">
-      <div class="card-header">
-        <div class="row">
-          <div class="col-md-2 col-sm-5">
-            <img src="{{speaker.image}}" width="100%" class="img-thumbnail" />
-          </div>
-          <div class="col-md-10 col-sm-6">
-            {# Commented out for now - can be restored before workshop
-            <div class="m-3 text-muted">
-              <h3>
-                <a href="speaker_{{speaker.UID}}.html" class="main-title">
-                  {{speaker.title}}
-                </a>
-              </h3>
-            </div>
-            #}
-            <div class="m-3 text-muted">
-              <span class="card-title h3">
-                {% if speaker.url %}<a href="{{speaker.url}}" target="_blank">{{speaker.speaker}}</a>{% else %}{{speaker.speaker}}{% endif %}  /  {{speaker.institution}}
-              </span>
-            </div>
-            {# Commented out for now - can be restored before workshop
-            <div class="m-3">
-              {{speaker.abstract|safe}}
-            </div>
-            #}
-          </div>
-        </div>
+<div class="row speaker-grid p-3">
+  {% for speaker in speakers %}
+  <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-4 d-flex">
+    {% if speaker.url %}<a href="{{speaker.url}}" target="_blank" class="speaker-card-link w-100">{% endif %}
+    <div class="speaker-card speaker-uid-{{speaker.UID}} w-100">
+      <div class="speaker-image-wrap">
+        <img src="{{speaker.image}}" alt="{{speaker.speaker}}" class="speaker-image" />
+      </div>
+      <div class="speaker-info">
+        <div class="speaker-name">{{speaker.speaker}}</div>
+        <div class="speaker-affiliation">{{speaker.institution}}</div>
       </div>
     </div>
+    {% if speaker.url %}</a>{% endif %}
   </div>
+  {% endfor %}
 </div>
-{% endfor %}
 {%- endmacro %}
 
 {% macro organizergroup(committee) -%}
